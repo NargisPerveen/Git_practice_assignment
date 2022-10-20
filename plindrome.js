@@ -2,7 +2,7 @@
 let num=13;
 let factor=0;
 for(let i=0;i<=num;i++){
-    if(num%i==1){
+    if(num%i==0){
         factor++
     }
 }if(factor==2){
@@ -14,6 +14,7 @@ for(let i=0;i<=num;i++){
 // palindrome number
 
 let num =1221;
+
 let rev=0;
 let rem;
 
@@ -23,4 +24,4 @@ rev=rev*10+rem;
 num=Math.floor(num/10);
 }
 
-console.log(num)
+console.log(rev)
